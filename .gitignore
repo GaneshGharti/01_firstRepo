@@ -1,0 +1,5 @@
+.gitignore
+/mylogs.log
+# *.log ignore everyfile that ends with .log
+# *.cpp ignore everyfile that ends with .cpp
+ignore/
