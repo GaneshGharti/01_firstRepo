@@ -1,0 +1,38 @@
+//Git command
+git config --global user.name Ganesh
+git config --global user.email ganesh@comewithme.com
+git config --global user.email
+git config --global user.name
+code .
+git init
+git clone
+ls
+ls -lart
+git status
+touch about.html
+git add -A(?)
+git commit -m "write any messges or anything"
+clear
+git checkout <filename>
+git checkout -f
+git log
+git log -p -anynumber
+git diff
+git diff --staged
+git restore --staged <filename>
+git commit -a -m "anything write"
+ls
+git rm --cached <filename>
+git rm <filename>
+git rm -r <filename>
+git status -s
+touch .gitignore
+touch .gitigonre
+git rm --cached foldername/<filename>
+git branch <feature1(branchename)>
+git branch
+git checkout feature1
+git merge feature1
+git checkout -b branchname
+git branch -d branchname
+git remote -v

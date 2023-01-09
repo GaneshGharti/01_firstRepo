@@ -1,0 +1,32 @@
+mkdir foldername
+1)git init
+2)git remote add origin <ssh-url>
+git push -u origin master
+git remote set-url origin <ssh-url>
+git remote
+git remote -v
+#folder push to github
+git status
+git add .(?)
+git commit -m ""
+git push origin master or main
+#pull from github
+git clone <ssh-url>
+git pull origin master
+#delete from github
+5)git config --global user.email "" email setup
+6)git config --global user.name"" username setup
+7)git push -u origin main
+#process of ssh-keygenerating
+ssh-keygen
+cat /c/Users/HP/.ssh/id_rsa.pub
+copy displays or key
+github profile setting, ssh and gpg keys add new ssh
+nano index.html
+#delete folder
+
+
+node is api
+react consum api
+js promise object types
+
