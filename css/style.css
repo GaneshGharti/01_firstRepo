@@ -1,0 +1,93 @@
+body{
+    /* background: url('plain-light-to-dark-grey-5boabzb6ecawkkpa.png'); */
+    /* background: url('minimal-palm-trees.png'); */
+    /* background: url('photo-1585045909660-ad783bff65f2.png'); */
+    background: url('beautiful-palm-tree-background-clear-blue-sky-sunny-day-single-beautiful-palm-tree-background-clear-blue-sky-128777232.png');
+    background-repeat:no-repeat;
+        background-size:cover;
+}
+.header h1{
+    color:#000000;
+}
+/* .qualification label{
+    color:#ffffff;
+} */
+.fullname input{
+    border-radius: 4px;
+    background-color:rgb(243, 243, 243);
+}
+.fullname input:hover{
+    cursor:pointer;
+    background-color:rgb(220, 242, 255);
+}
+.address{
+    padding:2px;
+    margin:2px;
+}
+.address input{
+    border-radius:4px;
+    background-color:rgb(243, 243, 243);
+    /* background-color:rgb(131, 21, 21); */
+}
+.address input:hover{
+    background-color:rgb(220, 242, 255);
+}
+.phoneNo{
+    /* padding:1px;
+    margin:1px; */
+    border-radius:2px;
+}
+.phoneNo input{
+    border-radius:4px;
+    background-color:rgb(243, 243, 243);
+}
+.phoneNo input:hover{
+    background-color:rgb(220, 242, 255);
+}
+.emailId{
+    padding:2px;
+    margin:2px;
+    border-radius:2px;
+}
+.emailId input{
+    border-radius:4px;
+    background-color:rgb(243, 243, 243);
+}
+.emailId input:hover{
+    background-color:rgb(220, 242, 255);
+}
+.dob{
+    padding:2px;
+    margin:2px;
+    border-radius:2px;
+}
+.dob input{
+    border-radius:4px;
+    background-color:rgb(243, 243, 243);
+}
+.dob input:hover{
+    background-color:rgb(220, 242, 255);
+}
+.gender{
+    padding:2px;
+    margin:2px;
+}
+.gender input{
+    border-radius:4px;
+    background-color:rgb(243, 243, 243);
+}
+.gender input:hover{
+    cursor:pointer;
+    background-color:rgb(8, 9, 9);
+}
+.qualification{
+    padding:2px;
+    margin:2px;
+}
+.qualification input{
+    border-radius:4px;
+    background-color:rgb(243, 243, 243);
+}
+.qualification input:hover{
+    background-color:rgb(220, 242, 255);
+}

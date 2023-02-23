@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Fill Up The Required Information</h1>
+        <div class="form">
+            <form>
+                <div class="fullname">
+                    <label for="fname">First name:</label>
+                    <input type="text" name="fullname" id="lname" placeholder="enter your firstname" required>
+                    <label for="mname">Middle Name:</label>
+                    <input type="text" name="fullname" id="lname" placeholder="enter your middlename" required>
+                    <label for="lname">Last name:</label>
+                    <input type="text" name="fullname" id="lname" placeholder="enter your lastname" required><br>
+                </div>
+                <div class="addresses">
+                    <address>
+                        <label for="address">Address:</lable>
+                            <span>
+                                <div class="address">
+                                    <label for="province">Provience:</lable>
+                                        <input type="number" name="provienceno" id="provienceno" required>
+                                        <label for="state">State:</lable>
+                                            <select id="state">
+                                                <option selected="true" value="state">Estern Region</option>
+                                                <option value="state">Madhesh</option>
+                                                <option value="state">Bagmati</option>
+                                                <option value="state">Gandaki</option>
+                                                <option value="state">Lumbini</option>
+                                                <option value="state">Karnali</option>
+                                                <option value="state">Sudur Pashchim</option>
+                                            </select>
+                                            <label for="district">District:</lable>
+                                                <input type="text" name="district" id="district"
+                                                    placeholder="enter your district" required>
+                                                <label for="municipality">Municipality:</lable>
+                                                    <input type="text" name="municipality" id="municipality"
+                                                        placeholder="enter your municipility" required><br>
+                                                    <label for="tole">City:</lable>
+                                                        <input type="text" name="city" id="city"
+                                                            placeholder="enter your city" required>
+                                                        <label for="tole">strect:</lable>
+                                                            <input type="text" name="tole" id="strect"
+                                                                placeholder="enter your strect" required>
+                                                            <label for="wardno">WardNo:</lable>
+                                                                <input type="number" name="number" id="number" required>
+                                </div>
+                            </span>
+                    </address>
+                </div>
+                <br>
+                <div class="phoneNo">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phonename" id="number" placeholder="enter your phone number" required>
+                </div>
+                <div class="emailId">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="enter your email" required><br>
+                </div>
+                <div class="dob">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday"><br>
+                </div>
+                <div class="gender">
+                    <!-- <label for="gender">Gender:</label>
+                    <select id="gender">
+                        <option selected="true" value="male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Intersex</option>
+                    </select><br> -->
+                    <label for="identity">Gender:</lable>
+                        <input type="radio" name="identity">Male
+                        <input type="radio" name="identity">Female
+                        <input type="radio" name="identity">Intersex
+                </div>
+                <div class="qualification">
+                    <qualification>
+                        <label for="degreetype">Degree Type:</lable>
+                            <input type="text" name="degreename" id="degreeid" required>
+                            <label for="qualification">Qualification:</lable>
+                                <select>
+                                    <option selected="true">Under Graduation</option>
+                                    <option value="Graduation">Graduation</option>
+                                    <option value="Post Graduation">Post Graduation</option>
+                                    <option value="Phd">Phd</option>
+                                </select>
+                    </qualification>
+                </div>
+            </form>
+        </div>
+    </div>
+    <b>Brief Describe About Yourself</b><br>
+    <textarea type="text" name="Description" id="describe" cols="25" rows="4"
+        placeholder="Brief Description....."></textarea><br>
+    <b>Submit:</b>
+    <submit><button>Submit</button></submit>
+    </div>
+    </div>
+</body>
+
+</html>
